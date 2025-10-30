@@ -7,6 +7,14 @@ This Shiny app allows users to explore baby-name popularity in the United States
 - Plotting the popularity of one or more names over a user-specified year range.  
 - Comparing name-popularity trends across different states and sexes.
 
+## Skills Used
+- **R programming** – data manipulation, plotting, and reactive programming.  
+- **Shiny** – building interactive web applications with UI and server components.  
+- **Data visualization** – creating dynamic plots with `ggplot2` and `plotly`.  
+- **Data Manipulation** – filtering, summarizing, and ranking data.  
+- **User-friendly design** – making the app easy to run with minimal setup.  
+
+
 ## Features
 - **Most Popular Names**: Choose a location (entire U.S. or individual state), select male or female, set how many top names to show, and pick the year.  
 - **Track Name Popularity Over Time**: Choose location(s), sex, select a range of years, and enter up to eight names; the app will plot their popularity trends.  
@@ -43,3 +51,4 @@ runApp("app.R")
 
 
 [View the app online](https://jasonmw324.shinyapps.io/namepopularityapp/)
+
