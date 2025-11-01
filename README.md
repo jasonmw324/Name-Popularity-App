@@ -34,7 +34,7 @@ That’s it — no extra setup required.
 ---
 
 ## 🗂 Repository Structure
-
+```markdown
 NamePopularityApp/
 ├── app.R
 ├── data/
@@ -44,6 +44,7 @@ NamePopularityApp/
 ├── tests/
 ├── README.md
 └── .gitignore
+
 
 
 
