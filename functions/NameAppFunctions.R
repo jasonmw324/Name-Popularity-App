@@ -1,6 +1,6 @@
 library(tidyverse)
 library(gridExtra)
-#setwd("C:/Users/jason/Desktop/NamePopularityApp/functions")
+
 
 load("StateData")
 load("NationalData")

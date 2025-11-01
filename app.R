@@ -1,5 +1,9 @@
-library(shiny)
+#install.packages("shiny")
+#install.packages("tidyverse")
+#install.packages("gridExtra")
 
+library(shiny)
+library(tidyverse)
 
 source("functions/NameAppFunctions.R")
 
