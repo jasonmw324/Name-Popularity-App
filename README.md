@@ -15,8 +15,7 @@ An interactive **Shiny** web app that visualizes baby name popularity across U.S
 
 ---
 
-## 🧪 Data & Methods
-- Uses publicly available baby name data from the **U.S. Social Security Administration (SSA)**.  
+## 🧪 Data & Methods 
 - Data includes: name, year, state, sex, and number of births.  
 - The app provides visual comparisons and rankings using R’s data manipulation and visualization packages.
 
@@ -49,6 +48,7 @@ NamePopularityApp/
 ├── StateData                # State Data used in App
 ├── app.R                    # Main Shiny App File
 └── deployApp.R              # Script to deploy app to shinyapps.io
+
 
 
 
