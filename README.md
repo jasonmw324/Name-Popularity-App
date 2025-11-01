@@ -35,18 +35,22 @@ That’s it — no extra setup required.
 
 ## 🗂 Repository Structure
 
-project-name/
-├── src/
-│   ├── components/
-│   ├── utils/
-│   ├── styles/
-│   └── index.js
-├── public/
-│   ├── index.html
-│   └── favicon.ico
-├── package.json
-├── README.md
-└── .gitignore
+NamePopularityApp/
+├── app.R                 # Main Shiny application file
+├── data/                 # Data directory
+│   ├── raw/             # Raw data files
+│   └── processed/       # Processed/cleaned data
+├── R/                   # Additional R scripts
+│   ├── helpers.R        # Helper functions
+│   └── data_processing.R # Data processing scripts
+├── www/                 # Web assets (CSS, images, etc.)
+│   ├── style.css        # Custom styling
+│   └── images/          # App images
+├── docs/                # Documentation
+├── tests/               # Test files
+├── README.md            # This file
+└── .gitignore           # Git ignore file
+
 
 
 
