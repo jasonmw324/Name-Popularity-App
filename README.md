@@ -35,15 +35,29 @@ That’s it — no extra setup required.
 
 ## 🗂 Repository Structure
 
-NamePopularityApp/
-├── app.R
-├── data/
-├── R/
-├── www/
-├── docs/
-├── tests/
-├── README.md
-└── .gitignore
+encryptzor/
+├── main.py                   # Application entry point
+├── core/                     # Core functionality
+│   ├── auth.py              # Authentication & master password
+│   ├── encryption.py        # Kryptos cipher + AES wrapper
+│   ├── vault.py             # Encrypted storage management
+│   └── utils.py             # Crypto utilities & helpers
+├── gui/                      # User interface
+│   ├── login_window.py      # Login interface
+│   ├── main_window.py       # Main password manager UI
+│   └── components.py        # Reusable UI components
+├── tests/                    # Unit tests
+│   ├── test_auth.py
+│   ├── test_encryption.py
+│   └── test_vault.py
+├── docs/                     # Documentation
+│   ├── KRYPTOS_CIPHER.md    # Cipher implementation details
+│   └── SECURITY_MODEL.md    # Security architecture
+├── data/                     # User data (created at runtime)
+│   ├── vault.enc            # Encrypted password vault
+│   └── config.json          # Non-sensitive configuration
+└── requirements.txt          # Python dependencies
+
 
 
 
