@@ -36,14 +36,20 @@ That’s it — no extra setup required.
 ## 🗂 Repository Structure
 ```markdown
 NamePopularityApp/
-├── app.R
-├── data/
-├── R/
-├── www/
-├── docs/
-├── tests/
-├── README.md
-└── .gitignore
+├── functions/            # Functions used in the app
+│   ├── .RData
+│   ├── .Rhistory
+│   ├── NameAppFunctions.R    # R file with custom functions used in app         
+├── rsconnect/shinyapps.io/jasonmw324/
+├── .RData                      
+├── .RDataTmp                
+├── .Rhistory  
+├── NationalData             # National Data used in App
+├── README.md                
+├── StateData                # State Data used in App
+├── app.R                    # Main Shiny App File
+└── deployApp.R              # Script to deploy app to shinyapps.io
+
 
 
 
