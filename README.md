@@ -36,9 +36,11 @@ That’s it — no extra setup required.
 ## 🗂 Repository Structure
 
 /
-├── app.R # main Shiny app file
-├── data/ # folder containing baby name data
-├── R/ # helper R scripts for loading and cleaning data
-├── www/ # CSS, JavaScript, or image assets
-├── README.md # project documentation
-└── LICENSE # (optional)
+├── app.R               # main Shiny app file
+├── data/               # folder containing baby name data
+├── R/                  # helper R scripts for loading and cleaning data
+├── www/                # CSS, JavaScript, or image assets
+├── README.md           # project documentation
+└── LICENSE             # (optional)
+
+
