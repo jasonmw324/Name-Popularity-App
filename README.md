@@ -28,7 +28,7 @@ An interactive **Shiny** web app that visualizes baby name popularity across U.S
 3. Open the folder in **RStudio**.  
 4. Open the file `app.R` and click **Run App** in the top right corner.  
 
-That’s it — no extra setup required.
+
 
 ---
 
@@ -48,6 +48,7 @@ NamePopularityApp/
 ├── StateData                # State Data used in App
 ├── app.R                    # Main Shiny App File
 └── deployApp.R              # Script to deploy app to shinyapps.io
+
 
 
 
